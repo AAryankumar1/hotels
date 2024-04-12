@@ -1,0 +1,113 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background: red;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+}
+header ul{
+	list-style: none;
+	display: flex;
+
+}
+header a{
+	color: black;
+}
+#logo{
+	margin: 0 auto;
+}
+#menu li{
+	padding: 10px;
+}
+#social li{
+padding: 10px;
+}
+footer{
+	display: flex;
+	align-items: center;
+	height: 100px;
+	margin-bottom: 10px;
+	left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+
+}
+footer ul{
+	list-style: none;
+	display: flex;
+	padding: 10px;
+}
+#menukk li{
+	padding: 10px;
+	display: flex;
+}
+#socialkk li{
+padding: 10px;
+}
+#logo{
+	margin: 0 auto;
+}
+img{
+height: 500px;
+width: 100%;
+padding: 00px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  transition: 2s;
+}
+.card:hover{
+scale: 1.2;
+rotate: -20deg;
+}
+
+p{
+	border: 5px solid black;
+	transition: 2s;
+	color: green;
+
+}
+
+p:hover{
+border: 8px solid black;
+color: black;
+
+}
+#last {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  height: 300px;
+  transition: 2s;
+}
+#last:hover{
+scale: 1;
+height: 400px;
+}
+#upeeer {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  height: 300px;
+  transition: 2s;
+}
+#upeeer:hover{
+scale: 1;
+height: 400px;
+}
